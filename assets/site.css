@@ -47,8 +47,7 @@ a { color: var(--accent); }
   max-width: 960px; margin: 0 auto; padding: 14px 16px;
   display: flex; align-items: center; justify-content: space-between; gap: 16px;
 }
-.brand { display: inline-flex; align-items: center; gap: 10px; color: var(--ink); text-decoration: none; font-weight: 700; letter-spacing: -.01em; }
-.brand img { width: 28px; height: 28px; flex: none; }
+.brand { color: var(--ink); text-decoration: none; font-weight: 700; letter-spacing: -.01em; }
 .site-nav { display: flex; gap: 18px; font-size: .92em; }
 .site-nav a { color: var(--sub); text-decoration: none; }
 .site-nav a:hover { color: var(--ink); }
